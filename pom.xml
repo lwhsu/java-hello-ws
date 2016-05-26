@@ -9,6 +9,17 @@
     <version>1.0-SNAPSHOT</version>
     <name>hello-ws</name>
 
+  <scm>
+    <connection>scm:git:https://github.com/lwhsu/java-hello.git</connection>
+    <developerConnection>scm:git:git@github.com:lwhsu/java-hello.git</developerConnection>
+    <url>https://github.com/lwhsu/java-hello</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
     <build>
         <finalName>hello-ws</finalName>
         <plugins>
