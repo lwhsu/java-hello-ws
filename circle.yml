@@ -8,4 +8,4 @@ deployment:
       - git config user.email "${MVN_RELEASE_USER_EMAIL}"
       - git config user.name "${MVN_RELEASE_USER_NAME}"
       - mvn -B -DscmCommentPrefix="[maven-release-plugin][skip ci] " release:clean release:prepare
-      - mvn -B release:perform
+      - mvn -B -s settings.xml release:perform

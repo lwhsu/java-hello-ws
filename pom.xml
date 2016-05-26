@@ -16,6 +16,15 @@
     <tag>HEAD</tag>
   </scm>
 
+  <distributionManagement>
+    <repository>
+        <id>bintray-lwhsu-maven</id>
+        <name>lwhsu-maven</name>
+        <url>https://api.bintray.com/maven/lwhsu/maven/hello-ws/;publish=1</url>
+    </repository>
+  </distributionManagement>
+
+
     <build>
         <finalName>hello-ws</finalName>
         <plugins>
