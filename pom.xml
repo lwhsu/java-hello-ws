@@ -10,9 +10,9 @@
     <name>hello-ws</name>
 
   <scm>
-    <connection>scm:git:https://github.com/lwhsu/java-hello.git</connection>
-    <developerConnection>scm:git:git@github.com:lwhsu/java-hello.git</developerConnection>
-    <url>https://github.com/lwhsu/java-hello</url>
+    <connection>scm:git:https://github.com/lwhsu/java-hello-ws.git</connection>
+    <developerConnection>scm:git:git@github.com:lwhsu/java-hello-ws.git</developerConnection>
+    <url>https://github.com/lwhsu/java-hello-ws</url>
     <tag>HEAD</tag>
   </scm>
 
