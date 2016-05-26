@@ -2,6 +2,7 @@ package org.lwhsu.test.hello;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
@@ -22,4 +23,14 @@ public class MyResource {
     public String getIt() {
         return "Got it!";
     }
+
+    @GET
+    @Path("/{name}")
+    public String sayHello(@PathParam("name") String name) {
+        if (name == null || name.isEmpty())
+            return Hello.hello();
+        else
+            return Hello.hello(name);
+    }
+
 }
